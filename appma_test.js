@@ -1,13 +1,10 @@
 function StringToInt(str)
 {
 var str_len=str.length;
-
 var arr_str = str.split(""); // split string to array of character
-
 var arr_res = [];
-
 var res = 0;
-
+     
 /////// For loop for separate number from string to array of int arr_res[]
 for(let i = 0; i <str_len ; i++)
 {
